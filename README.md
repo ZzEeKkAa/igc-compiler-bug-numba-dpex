@@ -3,7 +3,7 @@
 ## Building spirv binary launcher
 
 1. Activate oneapi via `setenv.bat` or any other way
-2. `cmake -B build -S .`
+2. `cmake -B build -S . -GNinja`
 3. `cmake --build build --target run_example`
 4. `.\build\run_example.exe`
 
